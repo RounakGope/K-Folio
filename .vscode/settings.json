@@ -1,0 +1,25 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "relwazzU9Ap8OpA74Isp_",
+            "name": "KFolio",
+            "driver": "mongodb",
+            "color": "#00B083",
+            "connectionType": "host",
+            "driverOptions": {
+                "protocol": "mongodb://"
+            },
+            "host": "localhost",
+            "port": 27017,
+            "ssl": false,
+            "authMethod": "password",
+            "username": "kfolio",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "KFolio",
+            "readOnly": false,
+            "role": "development",
+            "connectionTimeout": 30
+        }
+    ]
+}
