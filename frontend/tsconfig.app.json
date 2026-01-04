@@ -31,5 +31,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "src/components/SignIn.tsx", "src/LeftComponent"]
+  "include": ["src", "src/LeftComponent/SignIn.tsx", "src/LeftComponent"]
 }

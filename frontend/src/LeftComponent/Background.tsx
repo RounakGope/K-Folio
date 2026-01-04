@@ -1,7 +1,7 @@
 
 import MainContent from "./MainContent";
 
-// React.FC provides the type for a Functional Component
+
 const Background: React.FC = () => {
   return (
     <div className="bg-[linear-gradient(140deg,#020B3A_0%,#01030A_30%,#01030A_40%,#020B3A_90%,#010B6A_5%)] relative min-h-screen w-screen flex">

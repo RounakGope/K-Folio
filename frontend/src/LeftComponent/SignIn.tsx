@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ShineBorder } from "@/components/ui/shine-border";
+import { ShineBorder } from "@/LeftComponent/ui/shine-border";
 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState("");
