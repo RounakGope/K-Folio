@@ -11,7 +11,11 @@ export interface PostDocument {
   description?: string;
   tags: string[];
   media: Media[];
+
+  likesCount: number;
+  commentsCount: number;
 }
+
 
 const mediaSchema = new Schema<Media>(
   {
@@ -55,6 +59,16 @@ const postSchema = new Schema<PostDocument>(
       type: [mediaSchema],
       default: [],
     },
+    likesCount: {
+  type: Number,
+  default: 0,
+},
+
+commentsCount: {
+  type: Number,
+  default: 0,
+},
+
   },
   {
     timestamps: true, // createdAt, updatedAt
